@@ -191,4 +191,65 @@ body {
 
 .conteudo-experiencias {
     border-top: 0.4px solid rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
 }
+
+.conteudo-experiencias-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 120px;
+    align-items: center;
+}
+
+.conteudo-experiencias-titulo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.conteudo-experiencias-grupo {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+
+}
+
+.conteudo-experiencias-grupo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-experiencias-grupo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+    background-color: #1E1D1D;
+    padding: 20px;
+}
+
+.conteudo-experiencias-subtitulo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteudo-experiencias-grupo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.conteudo-experiencias-paragrafo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
