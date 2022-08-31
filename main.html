@@ -8,16 +8,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header id="home" class="cabecalho">
         <nav class="cabecalho-principal">
             <a class="cabecalho-principal-item">ES</a>
         </nav>
         <nav class="cabecalho-secundario">
-            <a class="cabecalho-secundario-item">Home</a>
-            <a class="cabecalho-secundario-item">Sobre</a>
-            <a class="cabecalho-secundario-item">Experiências</a>
-            <a class="cabecalho-secundario-item">Projetos</a>
-            <a class="cabecalho-secundario-item">Contato</a>
+            <a href="#home" class="cabecalho-secundario-item">Home</a>
+            <a href="#perfil" class="cabecalho-secundario-item">Sobre</a>
+            <a href="#experiencias" class="cabecalho-secundario-item">Experiências</a>
+            <a href="#projetos" class="cabecalho-secundario-item">Projetos</a>
+            <a href="#contato" class="cabecalho-secundario-item">Contato</a>
         </nav>
     </header>
 
@@ -30,7 +30,7 @@
             <img  class="conteudo-home-imagem" src="assets/programador.svg" alt="Imagem de um programador sentado em seu computador">
         </section>
 
-        <section class="conteudo-perfil">
+        <section id="perfil" class="conteudo-perfil">
             <img class="conteudo-perfil-imagem" src="assets/me.svg">
             <div class="conteudo-perfil-escrito">
                 <h2 class="conteudo-perfil-titulo">Sobre mim</h2>
@@ -39,18 +39,39 @@
                 <p class="conteudo-perfil-paragrafo">Estudante de Engenharia de Computação no Instituto Mauá de Tecnologia. Estou focado em aprender mais precisamente Python, JavaScript, Dart e C, além de outras tecnologias de desenvolvimento.</p>
                 <p class="conteudo-perfil-paragrafo">Me considero competente, ágil e extremamente bem humorado!</p>
                 <div class="conteudo-perfil-grupo">
-                    <a href="https://www.linkedin.com/in/enzosakamoto/"><button class="glow-on-hover">Linkedin</button></a>
-                    <a href="https://github.com/enzosakamoto"><button class="glow-on-hover">GitHub</button></a>
-                    <a href="assets/EnzoSakamoto_CV.pdf" download=""><button class="glow-on-hover">Currículo</button></a>
+                    <a href="https://www.linkedin.com/in/enzosakamoto/">
+                        <button class="glow-on-hover">
+                            <div class="conteudo-botao">
+                                <img class="botao-imagem" src="assets/linkedin.svg">
+                                <p class="botao-texto">Linkedin</p>
+                            </div>
+                        </button>
+                    </a>
+                    <a href="https://github.com/enzosakamoto">
+                        <button class="glow-on-hover">
+                            <div class="conteudo-botao">
+                                <img class="botao-imagem" src="assets/github.svg">
+                                <p class="botao-texto">GitHub</p>
+                            </div>
+                        </button>
+                    </a>
+                    <a href="assets/EnzoSakamoto_CV.pdf" download="">
+                        <button class="glow-on-hover">
+                            <div class="conteudo-botao">
+                                <img class="botao-imagem" src="assets/nuvem.svg">
+                                <p class="botao-texto">Currículo</p>
+                            </div>
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>
             
-        <section class="conteudo-experiencias">
+        <section id="experiencias" class="conteudo-experiencias">
             <div class="conteudo-experiencias-escrito">
                 <h2 class="conteudo-experiencias-titulo">Experiências</h2>
-                <div class="conteudo-experiencias-grupo">
-                    <div class="conteudo-experiencias-grupo3">
+                <div class="conteudo-experiencias-grupo-principal">
+                    <div class="conteudo-experiencias-grupo1">
                         <h4 class="conteudo-experiencias-subtitulo">Dev. Community Mauá</h4>
                         <h4 class="conteudo-experiencias-subtitulo">👀</h4>
                     </div>
@@ -59,36 +80,54 @@
                         <p class="conteudo-experiencias-paragrafo">Membro desde março de 2022, exercendo função de Desenvolvedor Front-End.</p>
                         <p class="conteudo-experiencias-paragrafo">Atuei como Desenvolvedor Front-End e Back-End do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.</p>
                     </div>
+                    <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br"><img class="conteudo-experiencias-imagem" src="assets/dev.svg"></a>
                 </div>
             </div>
         </section>
 
-        <section class="conteudo-projetos">
+        <section id="projetos" class="conteudo-projetos">
             <h2 class="conteudo-projetos-titulo">Projetos</h2>
             <div class="conteudo-projetos-escrito">
-                <img class="conteudo-projetos-imagem" src="assets/biblioteca.svg" alt="Foto de uma estante de livros de uma biblioteca">
-                <h3 class="conteudo-projetos-subtitulo">MauáLib</h3>
-                <p class="conteudo-projetos-paragrafo">Projeto que integra o sistema da biblioteca com o site do IMT</p>
-                <p class="conteudo-projetos-paragrafo">Tecnologias: Dart, Flutter</p>
-                <img class="conteudo-projetos-imagem" src="assets/comida.svg" alt="Foto de uma mesa com diversas comidas">
-                <h3 class="conteudo-projetos-subtitulo">NutriApp</h3>
-                <p class="conteudo-projetos-paragrafo">Aplicativo que consta com dados nutricionais de diversos alimentos e faz conversão de valores em função da massa</p>
-                <p class="conteudo-projetos-paragrafo">Tecnologias: Dart, Flutter</p>
-                <img class="conteudo-projetos-imagem" src="assets/soon.svg" alt="Ilustração com legenda de em breve">
-                <h3 class="conteudo-projetos-subtitulo">Em breve</h3>
+                <a href="https://github.com/enzosakamoto/MauaLib">
+                    <div class="conteudo-projetos-container">
+                        <img class="conteudo-projetos-imagem" src="assets/biblioteca.svg" alt="Foto de uma estante de livros de uma biblioteca">
+                        <h3 class="conteudo-projetos-subtitulo">MauáLib</h3>
+                        <p class="conteudo-projetos-paragrafo">Projeto que integra o sistema da biblioteca com o site do IMT<br/><br/><br/><br/><br/>Tecnologias: Dart, Flutter</p>
+                        
+                    </div>
+                </a>
+                <a href="https://github.com/enzosakamoto/nutri-app">
+                    <div class="conteudo-projetos-container">
+                        <img class="conteudo-projetos-imagem" src="assets/comida.svg" alt="Foto de uma mesa com diversas comidas">
+                        <h3 class="conteudo-projetos-subtitulo">NutriApp</h3>
+                        <p class="conteudo-projetos-paragrafo">Aplicativo que consta com dados nutricionais de diversos alimentos e faz conversão de valores em função da massa<br/><br/><br/>Tecnologias: Dart, Flutter</p>
+                 
+                    </div>
+                </a>
+                <div class="conteudo-projetos-container">
+                    <img class="conteudo-projetos-imagem" src="assets/soon.svg" alt="Ilustração com legenda de em breve">
+                    <h3 class="conteudo-projetos-subtitulo">Em breve</h3>
+                </div>
             </div>
-            <h2 class="conteudo-projetos-titulo"><a href="https://github.com/enzosakamoto?tab=repositories">Outros projetos</a></h2>
+            <a href="https://github.com/enzosakamoto?tab=repositories"><h2 class="conteudo-projetos-titulo">Outros projetos</h2></a>
         </section>
             
-        <section class="conteudo-contato">
-            <h2 class="conteudo-contato-titulo">Contato</h2>
-            <p class="conteudo-contato-paragrafo">Entre em contato comigo!</p>
-            <img class="conteudo-contato-imagem" src="assets/email.svg" alt="Logo do Email">
-            <p class="conteudo-contato-paragrafo">enzo.sak@hotmail.com</p>
-            <img class="conteudo-contato-imagem" src="assets/linkedin.svg" alt="Logo do Linkedin">
-            <a class="conteudo-contato-paragrafo" href="https://www.linkedin.com/in/enzosakamoto/">Meu Linkedin</a>
+        <section id="contato" class="conteudo-contato">
+            <div class="conteudo-contato-principal">
+                <h2 class="conteudo-contato-titulo">Contato</h2>
+                <p class="conteudo-contato-paragrafo">Entre em contato comigo!</p>
+            </div>
+            <div class="conteudo-contato-secundario">
+                <div class="conteudo-contato-row">
+                    <img class="conteudo-contato-imagem" src="assets/email.svg" alt="Logo do Email">
+                    <p class="conteudo-contato-paragrafo">enzo.sak@hotmail.com</p>
+                </div>
+                <div class="conteudo-contato-row">
+                    <a href="https://www.linkedin.com/in/enzosakamoto/"><img class="conteudo-contato-imagem" src="assets/linkedin.svg" alt="Logo do Linkedin"></a>
+                    <a class="conteudo-contato-paragrafo" href="https://www.linkedin.com/in/enzosakamoto/">Meu Linkedin</a>
+                </div>
+            </div>
         </section>
-
     </main>
     <footer class="conteudo-footer">
         <p class="conteudo-footer-paragrafo">Desenvolvido por <strong>Enzo Sakamoto</strong></p>

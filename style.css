@@ -78,7 +78,7 @@ body {
 }
 
 .conteudo-perfil {
-    background-color: black;
+    background-color: rgba(19, 19, 19, 1);
     padding-left: 300px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -112,7 +112,7 @@ body {
 }
 
 .conteudo-perfil-paragrafo {
-    text-align: justify;
+    
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 20px;
@@ -125,6 +125,24 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.conteudo-botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+    gap: 15px;
+    padding-left: 40px;
+}
+
+.botao-imagem {
+    width: 32px;
+    height: 32px;
+}
+
+.botao-texto {
+    padding: auto;
 }
 
 .glow-on-hover {
@@ -193,14 +211,14 @@ body {
     border-top: 0.4px solid rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 132px;
 }
 
 .conteudo-experiencias-escrito {
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    padding: 120px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .conteudo-experiencias-titulo {
@@ -208,21 +226,17 @@ body {
     color: white;
     font-size: 30px;
     font-weight: 700;
+    padding-left: 48px;
 }
 
-.conteudo-experiencias-grupo {
+.conteudo-experiencias-grupo-principal {
     display: flex;
     flex-direction: row;
-    gap: 64px;
-
+    gap: 128px;
+    align-items: center;
 }
 
-.conteudo-experiencias-grupo2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.conteudo-experiencias-grupo3 {
+.conteudo-experiencias-grupo1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,18 +246,20 @@ body {
     padding: 20px;
 }
 
+.conteudo-experiencias-grupo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 716px;
+    height: 191px;
+    text-align: justify;
+}
+
 .conteudo-experiencias-subtitulo {
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 20px;
     font-weight: 400;
-}
-
-.conteudo-experiencias-grupo2 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    
 }
 
 .conteudo-experiencias-paragrafo {
@@ -253,3 +269,126 @@ body {
     font-weight: 400;
 }
 
+.conteudo-experiencias-imagem {
+    padding-left: 56px;
+}
+
+.conteudo-projetos {
+    padding-top: 86px;
+    padding-bottom: 86px;
+    border-top: 0.4px solid rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(19, 19, 19, 1);
+}
+
+.conteudo-projetos-titulo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.conteudo-projetos-escrito {
+    display: flex;
+    flex-direction: row;
+    padding-top: 86px;
+    padding-bottom: 86px;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.conteudo-projetos-container {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    height: 372px;
+    background-color: rgba(48, 46, 46, 1);
+    align-items: center;
+    border-left: white solid 0.3px;
+}
+
+.conteudo-projetos-subtitulo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.conteudo-projetos-paragrafo {
+    padding-top: 11px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: column;
+    padding-top: 115px;
+    padding-left: 102px;
+    border-top: 0.4px solid rgba(255, 255, 255, 1);
+}
+
+.conteudo-contato-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 34px;
+}
+
+.conteudo-contato-secundario {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-contato-titulo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.conteudo-contato-imagem {
+    width: 32px;
+    height: 32px;
+}
+
+.conteudo-contato-paragrafo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteudo-contato-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 27px;
+}
+
+.conteudo-footer {
+    background-color: rgba(19, 19, 19, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-top: 0.4px solid rgba(255, 255, 255, 1);
+    align-items: center;
+}
+
+.conteudo-footer-paragrafo {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
