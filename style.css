@@ -5,10 +5,10 @@
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
+    font-size: 62.5%;
 }
 
 body {
-    font-size: 100%;
     background: #222222;
 }
 
@@ -19,6 +19,7 @@ body {
     justify-content: space-around;
     padding: 24px;
     background-color: rgba(19, 19, 19, 1);
+    width: 100%;
 }
 
 .cabecalho-principal-item {
@@ -40,8 +41,8 @@ body {
 }
 
 .conteudo {
-    margin-bottom: 120px;
     border-top: 0.4px solid rgba(255, 255, 255, 1);
+    font-size: 1.6rem;
 }
 
 .conteudo-home {
@@ -55,20 +56,20 @@ body {
 .conteudo-home-escrito {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    margin-left: 6rem;
 }
 
 .conteudo-home-escrito-subtitulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 400;
 }
 
 .conteudo-home-escrito-titulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 700;
 }
 
@@ -79,12 +80,10 @@ body {
 
 .conteudo-perfil {
     background-color: rgba(19, 19, 19, 1);
-    padding-left: 300px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 12rem;
     display: flex;
     flex-direction: row;
-    gap: 44px;
+    gap: 4.4rem;
     align-items: center;
     border-top: 0.4px solid rgba(255, 255, 255, 1);
 }
@@ -95,36 +94,42 @@ body {
     border-left: 3px solid white;
 }
 
-.conteudo-perfil-escrito {
-    width: 850px;
-    height: 450px;
+.conteudo-perfil-escrito-abaixo {
+    padding: 5rem;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1.6rem;
+}
+
+.conteudo-perfil-escrito-abaixo {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
 }
 
 .conteudo-perfil-titulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
-    padding-bottom: 34px;
+    padding-bottom: 3.4rem;
 }
 
 .conteudo-perfil-paragrafo {
-    
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
+    text-align: justify;
 }
 
 .conteudo-perfil-grupo {
-    padding-top: 54px;
+    padding-top: 5.4rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    gap: 3.2rem;
+    text-align: center;
 }
 
 .conteudo-botao {
@@ -132,17 +137,18 @@ body {
     flex-direction: row;
     align-items: center;
     vertical-align: center;
-    gap: 15px;
-    padding-left: 40px;
+    gap: 1.5rem;
+    padding-left: 4rem;
 }
 
 .botao-imagem {
-    width: 32px;
-    height: 32px;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .botao-texto {
     padding: auto;
+    font-size: 1.6rem;
 }
 
 .glow-on-hover {
@@ -212,7 +218,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 132px;
+    padding: 13.2rem;
 }
 
 .conteudo-experiencias-escrito {
@@ -224,15 +230,15 @@ body {
 .conteudo-experiencias-titulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
-    padding-left: 48px;
+    padding-left: 4.8rem;
 }
 
 .conteudo-experiencias-grupo-principal {
     display: flex;
     flex-direction: row;
-    gap: 128px;
+    gap: 12.8rem;
     align-items: center;
 }
 
@@ -240,37 +246,37 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    gap: 10px;
+    width: 30rem;
+    gap: 1rem;
     background-color: #1E1D1D;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .conteudo-experiencias-grupo2 {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    width: 716px;
-    height: 191px;
+    gap: 1.5rem;
+    width: 71.6rem;
+    height: 19.1rem;
     text-align: justify;
 }
 
 .conteudo-experiencias-subtitulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .conteudo-experiencias-paragrafo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .conteudo-experiencias-imagem {
-    padding-left: 56px;
+    padding-left: 5.6rem;
 }
 
 .conteudo-projetos {
@@ -332,7 +338,8 @@ body {
 .conteudo-contato {
     display: flex;
     flex-direction: column;
-    padding-top: 115px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     padding-left: 102px;
     border-top: 0.4px solid rgba(255, 255, 255, 1);
 }
@@ -391,4 +398,62 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 400;
+}
+
+@media (max-width: 1320px) {
+    
+    * {
+        font-size: 62.5%;
+    }
+
+    .conteudo-experiencias-grupo-principal {
+        flex-direction: column;
+    }
+
+    .conteudo-perfil {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.2rem;
+    }
+
+    .conteudo-experiencias-escrito {
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .conteudo-experiencias-grupo-principal {
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .conteudo-experiencias-titulo {
+        padding-left: 0px;
+    }
+
+    .conteudo-projetos-escrito {
+        flex-direction: column;
+    }
+}
+
+/* @media (max-width: 1030px) {
+    .conteudo-home {
+        flex-direction: column;
+        padding: 0px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 120px;
+        padding-left: 100px;
+    }
+} */
+
+@media (max-width: 1800px) {
+    * {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1400px) {
+    * {
+        font-size: 40%;
+    }
 }
