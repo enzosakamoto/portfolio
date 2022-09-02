@@ -17,27 +17,26 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 2.4rem;
     background-color: rgba(19, 19, 19, 1);
-    width: 100%;
 }
 
 .cabecalho-principal-item {
     font-family: 'Inter', sans-serif;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .cabecalho-secundario {
     display: flex;
-    gap: 32px;
+    gap: 3.2rem;
 }
 
 .cabecalho-secundario-item {
     font-family: 'Inter', sans-serif;
     color: rgba(255, 255, 255, 1);
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .conteudo {
@@ -50,7 +49,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 120px;
+    padding: 12rem;
 }
 
 .conteudo-home-escrito {
@@ -74,8 +73,8 @@ body {
 }
 
 .conteudo-home-imagem {
-    width: 605px;
-    height: 605px;
+    width: 55.5rem;
+    height: 55.5rem;
 }
 
 .conteudo-perfil {
@@ -89,8 +88,8 @@ body {
 }
 
 .conteudo-perfil-imagem {
-    width: 423px;
-    height: 454px;
+    width: 42.3rem;
+    height: 45.4rem;
     border-left: 3px solid white;
 }
 
@@ -114,6 +113,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     padding-bottom: 3.4rem;
+    padding-left: 5rem;
 }
 
 .conteudo-perfil-paragrafo {
@@ -154,7 +154,7 @@ body {
 .glow-on-hover {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    width: 220px;
+    width: 22rem;
     height: 50px;
     border: none;
     outline: none;
@@ -246,7 +246,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30rem;
+    width: 50rem;
     gap: 1rem;
     background-color: #1E1D1D;
     padding: 2rem;
@@ -256,8 +256,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    width: 71.6rem;
-    height: 19.1rem;
+    
     text-align: justify;
 }
 
@@ -280,8 +279,8 @@ body {
 }
 
 .conteudo-projetos {
-    padding-top: 86px;
-    padding-bottom: 86px;
+    padding-top: 8.6rem;
+    padding-bottom: 8.6rem;
     border-top: 0.4px solid rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
@@ -292,7 +291,7 @@ body {
 .conteudo-projetos-titulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     text-decoration: none;
 }
@@ -300,10 +299,10 @@ body {
 .conteudo-projetos-escrito {
     display: flex;
     flex-direction: row;
-    padding-top: 86px;
-    padding-bottom: 86px;
+    padding-top: 8.6rem;
+    padding-bottom: 8.6rem;
     justify-content: space-between;
-    gap: 75px;
+    gap: 7.5rem;
 }
 
 .conteudo-projetos-container {
@@ -316,18 +315,23 @@ body {
     border-left: white solid 0.3px;
 }
 
+.conteudo-projetos-imagem {
+    width: 308px;
+    height: 131px;
+}
+
 .conteudo-projetos-subtitulo {
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 25px;
     font-weight: 700;
-    padding-top: 25px;
+    padding-top: 2.5rem;
 }
 
 .conteudo-projetos-paragrafo {
-    padding-top: 11px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-top: 1.1rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 17px;
@@ -338,29 +342,29 @@ body {
 .conteudo-contato {
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 102px;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-left: 10.2rem;
     border-top: 0.4px solid rgba(255, 255, 255, 1);
 }
 
 .conteudo-contato-principal {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding-bottom: 34px;
+    gap: 1.6rem;
+    padding-bottom: 3.4rem;
 }
 
 .conteudo-contato-secundario {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 3.2rem;
 }
 
 .conteudo-contato-titulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     text-decoration: none;
 }
@@ -373,7 +377,7 @@ body {
 .conteudo-contato-paragrafo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -381,14 +385,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 27px;
+    gap: 2.7rem;
 }
 
 .conteudo-footer {
     background-color: rgba(19, 19, 19, 1);
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 5rem;
     border-top: 0.4px solid rgba(255, 255, 255, 1);
     align-items: center;
 }
@@ -396,15 +400,11 @@ body {
 .conteudo-footer-paragrafo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
 }
 
-@media (max-width: 1320px) {
-    
-    * {
-        font-size: 62.5%;
-    }
+@media (max-width: 1280px) {
 
     .conteudo-experiencias-grupo-principal {
         flex-direction: column;
@@ -413,7 +413,7 @@ body {
     .conteudo-perfil {
         flex-direction: column;
         align-items: center;
-        padding: 1.2rem;
+        padding: 12rem;
     }
 
     .conteudo-experiencias-escrito {
@@ -433,18 +433,17 @@ body {
     .conteudo-projetos-escrito {
         flex-direction: column;
     }
+
+    .conteudo-experiencias-grupo1 {
+        width: 200px;
+    }
 }
 
-/* @media (max-width: 1030px) {
-    .conteudo-home {
-        flex-direction: column;
-        padding: 0px;
-        padding-left: 120px;
-        padding-right: 120px;
-        padding-top: 120px;
-        padding-left: 100px;
+@media (max-width: 1980px) {
+    * {
+        font-size: 55%;
     }
-} */
+}
 
 @media (max-width: 1800px) {
     * {
@@ -452,8 +451,91 @@ body {
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1630px) {
+    * {
+        font-size: 46%;
+    }
+}
+
+@media (max-width: 1470px) {
+    * {
+        font-size: 45%;
+    }
+    
+}
+
+@media (max-width: 1030px) {
+    .conteudo-home {
+        flex-direction: column;
+        padding: 0px;
+        padding-left: 12rem;
+        padding-right: 12rem;
+        padding-top: 12rem;
+        padding-bottom: 10rem;
+        align-items: center;
+    }
+}
+
+@media (max-width: 780px) {
+
     * {
         font-size: 40%;
+    }
+
+    .conteudo-perfil {
+        padding: 4rem;
+    }
+
+    .conteudo-perfil-grupo {
+        flex-direction: column;
+    }
+
+    .conteudo-experiencias-grupo1 {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        font-size: 35%;
+    }
+
+    .conteudo-perfil {
+        padding: 3rem;
+    }
+
+    .conteudo-home-escrito {
+        margin-left: 0px;
+    }
+
+    .conteudo-projetos-subtitulo {
+        font-size: 20px;
+    }
+
+    .conteudo-projetos-paragrafo {
+        font-size: 15px;
+    }
+
+    
+}
+
+@media (max-width: 320px) {
+    * {
+        font-size: 30%;
+    }
+
+    .conteudo-projetos-container {
+        display: flex;
+        flex-direction: column;
+        width: 258px;
+        height: 322px;
+        background-color: rgba(48, 46, 46, 1);
+        align-items: center;
+        border-left: white solid 0.3px;
+    }
+
+    .conteudo-projetos-imagem {
+        width: 258px;
+        height: 109px;
     }
 }
