@@ -315,6 +315,10 @@ body {
     border-left: white solid 0.3px;
 }
 
+.conteudo-projetos-container:hover {
+    background-color: rgb(85, 83, 83, 1);
+}
+
 .conteudo-projetos-imagem {
     width: 308px;
     height: 131px;
