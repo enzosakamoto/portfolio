@@ -26,8 +26,19 @@
         <section class="conteudo-home">
             <div class="conteudo-home-escrito">
                 <h2 class="conteudo-home-escrito-subtitulo">Bem-vindo! Eu sou</h2>
-                <h1 class="conteudo-home-escrito-titulo">ENZO SAKAMOTO</h1>
+                <h1 class="conteudo-home-escrito-titulo"><span class="auto-type"></span></h1>
             </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["ENZO SAKAMOTO", "DESENVOLVEDOR JÚNIOR", "DESENVOLVEDOR FRONT-END"],
+                    typeSpeed: 100,
+                    backSpeed: 100,
+                    loop: true
+                })
+            </script>
+
             <img  class="conteudo-home-imagem" src="assets/programador.svg" alt="Imagem de um programador sentado em seu computador">
         </section>
 
@@ -134,7 +145,7 @@
         </section>
     </main>
     <footer class="conteudo-footer">
-        <p class="conteudo-footer-paragrafo">Desenvolvido por Enzo Sakamoto</p>
+        <p class="conteudo-footer-paragrafo">Desenvolvido por Enzo Sakamoto &copy;</p>
     </footer>
 </body>
 </html>

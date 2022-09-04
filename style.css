@@ -19,6 +19,12 @@ body {
     justify-content: space-around;
     padding: 2.4rem;
     background-color: rgba(19, 19, 19, 1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 0.4px solid rgba(255, 255, 255, 1);
+    z-index: 10;
 }
 
 .cabecalho-principal-item {
@@ -40,7 +46,6 @@ body {
 }
 
 .conteudo {
-    border-top: 0.4px solid rgba(255, 255, 255, 1);
     font-size: 1.6rem;
 }
 
@@ -61,15 +66,17 @@ body {
 .conteudo-home-escrito-subtitulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 400;
 }
 
 .conteudo-home-escrito-titulo {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 700;
+    position: absolute;
+    margin-top: 10px;
 }
 
 .conteudo-home-imagem {
@@ -470,13 +477,25 @@ body {
 
 @media (max-width: 1030px) {
     .conteudo-home {
+        margin-top: 80px;
         flex-direction: column;
         padding: 0px;
         padding-left: 12rem;
         padding-right: 12rem;
         padding-top: 12rem;
         padding-bottom: 10rem;
+        gap: 50px;
+    }
+
+    .conteudo-home-escrito {
+        margin-left: 0;
+        text-align: center;
         align-items: center;
+        justify-items: center;
+    }
+
+    .conteudo-home-escrito-titulo {
+        margin-top: 5px;
     }
 }
 
@@ -496,6 +515,10 @@ body {
 
     .conteudo-experiencias-grupo1 {
         width: 200px;
+    }
+
+    .conteudo-perfil {
+        padding-top: 12rem;
     }
 }
 
