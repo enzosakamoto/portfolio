@@ -55,6 +55,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 12rem;
+    height: 90vh;
 }
 
 .conteudo-home-escrito {
@@ -485,6 +486,7 @@ body {
         padding-top: 12rem;
         padding-bottom: 10rem;
         gap: 50px;
+        height: 81vh;
     }
 
     .conteudo-home-escrito {
@@ -503,6 +505,10 @@ body {
 
     * {
         font-size: 40%;
+    }
+
+    .conteudo-home {
+        height: 85vh;
     }
 
     .conteudo-perfil {
@@ -527,8 +533,8 @@ body {
         font-size: 35%;
     }
 
-    .conteudo-perfil {
-        padding: 3rem;
+    .conteudo-home {
+        height: 84vh;
     }
 
     .conteudo-home-escrito {
