@@ -7,6 +7,7 @@
     <title>Portfólio - Enzo Sakamoto</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="x-icon" href="assets/ES.svg">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -87,15 +88,31 @@
                 <h2 class="conteudo-experiencias-titulo">Experiências</h2>
                 <div class="conteudo-experiencias-grupo-principal">
                     <div class="conteudo-experiencias-grupo1">
-                        <h4 class="conteudo-experiencias-subtitulo">Dev. Community Mauá</h4>
-                        <h4 class="conteudo-experiencias-subtitulo">👀</h4>
+                        <a id="primeiro-botao">
+                            <div class="divbox-button">
+                                <h4 class="conteudo-experiencias-subtitulo">Dev. Community Mauá</h4>
+                            </div>
+                        </a>
+                        <a id="segundo-botao">\
+                            <div class="divbox-button">
+                                <h4 class="conteudo-experiencias-subtitulo">👀</h4>
+                            </div>
+                        </a>
                     </div>
-                    <div class="conteudo-experiencias-grupo2">
-                        <p class="conteudo-experiencias-paragrafo">A Dev. Community Mauá é uma entidade de desenvolvimento e criação de soluções computacionais do Instituto Mauá de Tecnologia.</p>
-                        <p class="conteudo-experiencias-paragrafo">Membro desde março de 2022, exercendo função de Desenvolvedor Front-End.</p>
-                        <p class="conteudo-experiencias-paragrafo">Atuei como Desenvolvedor Front-End e Back-End do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.</p>
+
+                    <div id="container-experiencias1" class="conteudo-experiencias-container" style="visibility: visible;">
+                        <div class="conteudo-experiencias-grupo2">
+                            <p class="conteudo-experiencias-paragrafo">A Dev. Community Mauá é uma entidade de desenvolvimento e criação de soluções computacionais do Instituto Mauá de Tecnologia.</p>
+                            <p class="conteudo-experiencias-paragrafo">Membro desde março de 2022, exercendo função de Desenvolvedor Front-End.</p>
+                            <p class="conteudo-experiencias-paragrafo">Atuei como Desenvolvedor Front-End e Back-End do projeto integrador do sistema da biblioteca com o site da instituição, chamado MauáLib, utilizando a linguagem de programação Dart com framework Flutter.</p>
+                        </div>
+                        <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank"><img class="conteudo-experiencias-imagem" src="assets/dev.svg"></a>
                     </div>
-                    <a href="https://www.instagram.com/devcommunitymaua/?hl=pt-br" target="_blank"><img class="conteudo-experiencias-imagem" src="assets/dev.svg"></a>
+
+                    <div id="container-experiencias2" class="conteudo-experiencias-container">
+                        <div class="conteudo-experiencias-grupo2">
+                            <p class="conteudo-experiencias-paragrafo">Minha próxima experiência pode ser na sua empresa! 👀</p>
+                    </div>
                 </div>
             </div>
         </section>
