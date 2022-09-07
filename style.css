@@ -45,6 +45,10 @@ body {
     font-size: 2rem;
 }
 
+.cabecalho-secundario-item:hover {
+    color: rgb(167, 165, 165);
+}
+
 .conteudo {
     font-size: 1.6rem;
 }
@@ -249,6 +253,7 @@ body {
     flex-direction: row;
     gap: 12.8rem;
     align-items: center;
+    height: 25vh;
 }
 
 .conteudo-experiencias-grupo1 {
@@ -280,7 +285,7 @@ body {
     height: 31.5rem;
 }
 
-.divbox-button {
+.box-button {
     width: 25rem;
     background-color: #1E1D1D;
     padding: 1rem;
@@ -288,7 +293,7 @@ body {
     cursor: pointer;
 }
 
-.divbox-button:hover {
+.box-button:hover {
     background-color: rgb(85, 83, 83, 1);
 }
 
@@ -450,6 +455,10 @@ body {
 @media (max-width: 1980px) {
     * {
         font-size: 55%;
+    }
+
+    .conteudo-experiencias-grupo-principal {
+        height: 20vh;
     }
 }
 
