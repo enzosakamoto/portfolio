@@ -382,9 +382,21 @@ body {
     padding-right: 2.2rem;
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     text-align: justify;
+}
+
+.conteudo-projetos-titulo-outros-projetos {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.conteudo-projetos-titulo-outros-projetos:hover {
+    color: rgb(167, 165, 165);
 }
 
 .conteudo-contato {
