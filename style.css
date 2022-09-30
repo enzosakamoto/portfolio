@@ -304,6 +304,13 @@ body {
     text-align: justify;
 }
 
+.conteudo-experiencias-grupo2 h3 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .conteudo-experiencias-subtitulo {
     font-family: 'Inter', sans-serif;
     color: white;
