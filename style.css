@@ -523,6 +523,8 @@ body {
     }
 
     #container-experiencias2 {
+        flex-direction: column;
+        gap: 30px;
         width: auto;
     }
 
@@ -582,7 +584,7 @@ body {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 830px) {
 
     * {
         font-size: 40%;
