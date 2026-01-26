@@ -139,8 +139,9 @@ function About() {
               </li>
               <li>
                 <span className="text-sky-300">Certificações:</span> AWS AI
-                Practitioner (AIF-C01), Microsoft Azure Fundamentals (AZ-900) e
-                Google Cloud Platform – Associate Cloud Engineer (GCP-ACE).
+                Practitioner (AIF-C01), Microsoft Azure Fundamentals (AZ-900),
+                Google Cloud Platform – Associate Cloud Engineer (GCP-ACE) e
+                GitHub Copilot (GH-300).
               </li>
             </ul>
           </div>
